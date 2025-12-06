@@ -29,8 +29,9 @@ export default defineConfig({
     // baseURL: 'http://localhost:3000',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    // Run tests in headed mode by default for local debugging (set to `true` to run headless).
-    headless: false,
+    // Run tests headed locally for debugging, but run headless on CI.
+    // CI systems typically set the `CI` env var; use that to toggle headless mode.
+    headless: !!process.env.CI,
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
