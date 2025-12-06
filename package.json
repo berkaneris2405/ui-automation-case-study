@@ -1,0 +1,23 @@
+{
+  "name": "ui-automation-case-study",
+  "version": "1.0.0",
+  "description": "This is a test project that is based on ui automation.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berkaneris2405/ui-automation-case-study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/berkaneris2405/ui-automation-case-study/issues"
+  },
+  "homepage": "https://github.com/berkaneris2405/ui-automation-case-study#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^24.10.1"
+  }
+}
